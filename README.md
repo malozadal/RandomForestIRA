@@ -25,3 +25,8 @@ This project implements a **Random Forest Regressor** for the **early detection 
   - 🔴 Red → High incidence  
 - 📂 **Files ready for Power BI visualization** (CSV/Excel)  
 - 📊 **Graphs of variable importance and model performance**  
+
+## 🛠️ Next Steps  
+
+- Integrate predictions into a live dashboard (Power BI).  
+- Extend forecasting to future weeks/years.  
