@@ -17,4 +17,20 @@ The model predicts the **weekly incidence rate by region**, using climate and hi
 ---
 
 ## 🧠 Model  
-- Algorithm: **RandomForestRegressor** (Scikit-learn).  
+- Algorithm: **RandomForestRegressor** (Scikit-learn).
+
+## 📈 Outputs
+
+Weekly incidence predictions (Predicted_Rate).
+
+Alert levels:
+
+🟢 Green → Low incidence
+
+🟡 Yellow → Moderate risk
+
+🔴 Red → High incidence
+
+Files ready for Power BI visualization (CSV/Excel).
+
+Graphs of variable importance and model performance.
