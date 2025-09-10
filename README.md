@@ -1,9 +1,7 @@
 # Early Detection of Respiratory Diseases with Random Forest  
--- 
 
 This project implements a **Random Forest Regressor** for the **early detection of acute respiratory diseases (IRA)** in Peru. The model predicts the **weekly incidence rate by region**, using climate and historical case data, while excluding the pandemic years (2020–2021).  
 
---
 ## ⚙️ Data used  
 - 📑 **Source 1:** Observatorio de Clima y Salud – MINSA  
 - 📑 **Source 2:** Population from 2017 Census – INEI  
