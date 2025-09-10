@@ -29,4 +29,8 @@ This project implements a **Random Forest Regressor** for the **early detection 
 ## 🛠️ Next Steps  
 
 - Integrate predictions into a live dashboard (Power BI).  
-- Extend forecasting to future weeks/years.  
+- Extend forecasting to future weeks/years.
+  
+## 🔦 Collaborators
+- [Monica Lozada](https://github.com/malozadal)
+- [Carolina Saavedra](https://github.com/Caro9926)
