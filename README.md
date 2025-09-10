@@ -3,28 +3,28 @@
 This project implements a **Random Forest Regressor** for the **early detection of acute respiratory diseases (IRA)** in Peru. The model predicts the **weekly incidence rate by region**, using climate and historical case data, while excluding the pandemic years (2020–2021).  
 
 ## ⚙️ Data used  
-- 📑 **Source 1:** Observatorio de Clima y Salud – MINSA  
-- 📑 **Source 2:** Population from 2017 Census – INEI  
+- **Source 1:** Observatorio de Clima y Salud – MINSA  
+- **Source 2:** Population from 2017 Census – INEI  
 - **Time coverage:** 2017–2025 (updated weekly)  
 - **Geographic coverage:** 26 regions of Peru (including Callao and Lima Metropolitana)  
 - **Variables:**  
-  - 🌡️ Climate: `tmean`, `tmax`, `tmin`, `humr`, `ptot`  
-  - 🧑‍⚕️ ARI cases: `Casos`  
-  - 👥 Population by region (`population`)  
-  - 📊 Derived variables: incidence per 100k inhabitants, predicted rates, alert levels  
+  - Climate: `tmean`, `tmax`, `tmin`, `humr`, `ptot`  
+  - IRA cases: `Cases`  
+  - Population by region (`population`)  
+  - Derived variables: incidence per 100k inhabitants, predicted rates, alert levels  
 
 ## 🧠 Model  
 - Algorithm: **RandomForestRegressor** .
 
 ## 🔍 Features  
 
-- 📈 **Weekly incidence predictions** (`Predicted_Rate`)  
+- **Weekly incidence predictions** (`Predicted_Rate`)  
 - 🚨 **Alert levels:**  
   - 🟢 Green → Low incidence  
   - 🟡 Yellow → Moderate risk  
   - 🔴 Red → High incidence  
-- 📂 **Files ready for Power BI visualization** (CSV/Excel)  
-- 📊 **Graphs of variable importance and model performance**  
+- **Files ready for Power BI visualization** (CSV/Excel)  
+- **Graphs of variable importance and model performance**  
 
 ## 🛠️ Next Steps  
 
